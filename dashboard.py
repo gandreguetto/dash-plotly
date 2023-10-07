@@ -160,7 +160,10 @@ fig2 = go.Figure(go.Bar(
 fig2.update_traces(marker_color=df_var["Color"])
 
 # Remove as informações do eixo x
-fig2.update_xaxes(showticklabels=False)
+fig2.update_xaxes(
+    showticklabels=False,
+    range=[-65, 175]
+)
 
 
 fig2.update_yaxes(
@@ -366,7 +369,7 @@ app.layout = html.Div(
                             className='top',
                             children=[
                                 html.H5(
-                                    ['Evolution of crimes - 2016 to 2022'],
+                                    ['Percentage variation - 2016 to 2022'],
                                     style={
                                         'line-height' : '1.6',
                                         'box-sizing' : 'border-box',
