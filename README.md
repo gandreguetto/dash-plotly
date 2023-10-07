@@ -10,4 +10,6 @@ Os resultados são resumidos em dois visuais. Tem-se uma visualização do núme
 
 Abaixo uma visão estática do dashboard é mostrada.
 
+![dashboard_figure](https://github.com/gandreguetto/dash-plotly/assets/88217999/5c41c160-fa71-4f72-af09-1472d35191fb)
+
 
